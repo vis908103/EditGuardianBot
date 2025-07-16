@@ -1,6 +1,6 @@
 from telegram import Update, Bot, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
-from config import 8081003333:AAEUgbL5JOJP4r294D4kUtrBU5fqTwegmjk, 1008989961
+from config import BOT_TOKEN, OWNER_ID
 
 def start(update: Update, context: CallbackContext):
     user = update.effective_user
